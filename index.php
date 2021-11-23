@@ -11,11 +11,9 @@
           <a href="#about">Kontakt os</a>
       </div>
     <h1>CafeE</h1>
-    <footer>
-      <p>CafeE<pr>
-      <a href="https://www.foedevarestyrelsen.dk/Kontrol/Smiley/Sider/Smiley-ordningen.aspx">fødevarerstyrelsen</a></p>
-    </footer>
-    <div id="footer">This is a footer this stays at the bottom of the page :D<img src="img/funny monkey.png"></div>
+    <div id="footer">This is a footer this stays at the bottom of the page :D
+    <a href="http://www.findsmiley.dk/1112436">fødevarerstyrelsen<img src="img/1Smiley.png"></a>
+    </div>
     <img src="img/funny monkey.png" id="frontimg">
     <img src="img/skate_monke.png" id="frontimg">
   </body>
