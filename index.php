@@ -13,6 +13,7 @@
     <h1>CafeE</h1>
     <div id="footer">This is a footer this stays at the bottom of the page :D
     <a href="http://www.findsmiley.dk/1112436">fødevarerstyrelsen<img src="img/1Smiley.png"></a>
+    <a href="mailto:kunstmuseum@horsens.dk">Mail: kunstmuseum@horsens.dk </a>
     </div>
     <img src="img/funny monkey.png" id="frontimg">
     <img src="img/skate_monke.png" id="frontimg">
