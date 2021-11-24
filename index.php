@@ -14,7 +14,11 @@
         </div>
         <img src="img/funny monkey.png" id="frontimg">
         <img src="img/skate_monke.png" id="frontimg">
-        <a class="big-button" href='https://www.youtube.com/'> Bestil her </a>
+
+        <div class="bestil-her-div"> 
+            <a class="big-button" href='https://www.youtube.com/'> Bestil her </a>
+        </div>
+        
 
         <div id="footer">This is a footer this stays at the bottom of the page :D
             <h1>Kontakt i åbningstiden tlf:7629 2378 eller tlf:2492 8090</h1>

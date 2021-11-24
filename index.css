@@ -59,3 +59,8 @@
 .big-button:hover {
     filter: brightness(1.2);
 }
+
+.bestil-her-div {
+    background-color: white;
+    text-align: center;
+}
