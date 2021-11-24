@@ -6,10 +6,12 @@
         <div id="header">
             <h1>Café E</h1>
             <div class="topnav">
-                <a class="active" href="#home">Bestil her</a>
-                <a href="#news">Åbningstider</a>
-                <a href="#contact">Om os</a>
-                <a href="#about">Kontakt os</a>
+                <div class="buttons">
+                    <a href="#home">Bestil her</a>
+                    <a href="#news">Åbningstider</a>
+                    <a href="#contact">Om os</a>
+                    <a href="#about">Kontakt os</a>
+                </div>
             </div>
         </div>
 
