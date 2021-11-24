@@ -3,7 +3,7 @@
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <div>
+        <div id="header">
             <h1>Café E</h1>
             <div class="topnav">
                 <a class="active" href="#home">Bestil her</a>
