@@ -55,5 +55,5 @@
 }
 
 .big-button:hover {
-    filter: brightness (0.5);
+    opacity: (0.5);
 }
