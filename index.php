@@ -11,10 +11,10 @@
             <h1>Café E</h1>
             <div class="topnav">
                 <div class="buttons">
-                    <a href="#menu">Menu</a>
-                    <a href="#bestil">Bestil her</a>
-                    <a href="#aabningstider">Åbningstider</a>
-                    <a href="#om">Om os</a>
+                    <a class="right-line" href="#menu">Menu</a>
+                    <a class="right-line" href="#bestil">Bestil her</a>
+                    <a class="right-line" href="#aabningstider">Åbningstider</a>
+                    <a class="right-line" href="#om">Om os</a>
                     <a href="#kontakt">Kontakt os</a>
                 </div>
             </div>
