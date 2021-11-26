@@ -12,6 +12,11 @@ body {
   min-height: 100vh;
 }
 
+.frontimg{
+    object-fit: cover;
+    height: 100%;
+}
+
 #Bestil_knap {
     width: 50%;
     align-content: center;
@@ -126,7 +131,7 @@ body {
 }
 .menu-button:hover{
     filter: brightness(1.2);
-    
+
 }
 
 .menu-div{
