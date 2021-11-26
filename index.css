@@ -87,7 +87,7 @@ body {
     color: #FFFFFF;
 }
 #footersmiley{
-    align-content: left;
+    float: left;
 }
 .big-button {
     background-color: #AE9981;
