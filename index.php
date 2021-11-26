@@ -1,6 +1,7 @@
 <html>
 
 <head>
+    <title>Café E</title>
     <link rel="stylesheet" href="index.css">
 </head>
 

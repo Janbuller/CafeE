@@ -4,6 +4,7 @@ body {
     font-family: "Roboto", sans-serif;
     padding: 0;
     margin: 0;
+    min-height: 100vh;
 }
 
 #Bestil_knap {
@@ -61,7 +62,7 @@ body {
 }
 
 #footer {
-    position:fixed;
+    position:absolute;
     left: 0;
     bottom: 0;
     width:100%;
