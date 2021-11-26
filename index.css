@@ -147,4 +147,7 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
 }
-
+#info{
+    color: #AC9C89;
+    align-content: left;
+}
