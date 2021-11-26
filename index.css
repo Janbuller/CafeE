@@ -66,12 +66,8 @@ body {
     left: 0;
     bottom: 0;
     width:100%;
-<<<<<<< HEAD
     height:60px;   /* Height of the footer */
     background:#C1C1C1;
-=======
-    background:#6cf;
->>>>>>> 39c8165361950e767a70b28967ad1894ea0ce819
     font-family: "Roboto", sans-serif;
 }
 #footertlf{
