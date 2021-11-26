@@ -22,7 +22,7 @@
             </div>
             <img src="img/cafe-bg.webp" id="frontimg">
         </div>
-        <div class="bestil-her-div" height="100%">
+        <div class="bestil-her-div" height="363">
             <a class="big-button" href='https://www.youtube.com/'> Bestil her </a>
         </div>
         <div class="menu-div">
