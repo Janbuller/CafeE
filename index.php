@@ -1,22 +1,26 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
+
+<head>
+    <title>Café E</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div id="top-image-header">
         <div id="header">
             <h1>Café E</h1>
             <div class="topnav">
                 <div class="buttons">
-                    <a href="#home">Bestil her</a>
-                    <a href="#news">Åbningstider</a>
-                    <a href="#contact">Om os</a>
-                    <a href="#about">Kontakt os</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#bestil">Bestil her</a>
+                    <a href="#aabningstider">Åbningstider</a>
+                    <a href="#om">Om os</a>
+                    <a href="#kontakt">Kontakt os</a>
                 </div>
             </div>
         </div>
         <img src="img/funny monkey.png" id="frontimg">
-        <img src="img/skate_monke.png" id="frontimg">
-
+    </div>
         <div class="bestil-her-div"> 
             <a class="big-button" href='https://www.youtube.com/'> Bestil her </a>
         </div>
