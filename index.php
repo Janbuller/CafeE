@@ -20,7 +20,7 @@
                     </div>
                 </div>
             </div>
-            <img src="img/cafe-bg.png" id="frontimg">
+            <img src="img/cafe-bg.webp" id="frontimg">
         </div>
         <div class="bestil-her-div">
             <a class="big-button" href='https://www.youtube.com/'> Bestil her </a>
@@ -29,10 +29,10 @@
                 <a class="menu-button" href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'> Menu </a>
                 <p> her kan jimmi putte sin menu. </p>
             </div>
-        <div id="footer">This is a footer this stays at the bottom of the page :D
-            <h1 id="footer-tlf">Telefon:7629 2378 eller 2492 8090</h1>
+        <div id="footer">
+            <p id="footer-tlf">Telefon:7629 2378 eller 2492 8090</p>
             <a id="footertlf" href="mailto:info@kokkenudafhuset.dk">Mail: info@kokkenudafhuset.dk </a>
-            <a id="footersmiley" href="http://www.findsmiley.dk/1112436"><img src="img/smiley.png"></a>
+            <a id="footersmiley" href="http://www.findsmiley.dk/1112436"><img src="img/smiley.webp"></a>
         </div>
     </div>
 </body>
