@@ -16,9 +16,10 @@ body {
     width: 50%;
     align-content: center;
 }
+
 #frontimg{
     width: 100%;
-    height: 250px;
+    height: 250Px;
     align-content: center;
     z-index:-1;
 }
@@ -37,7 +38,9 @@ body {
 
 #header h1 {
     color: #ffffff;
-    margin-top: 0;
+    margin-top: 10;
+    margin-bottom: 10;
+    font-size: 50;
     font-family: "Roboto", sans-serif;
     font-weight: 200;
     font-size: 50px;
@@ -51,6 +54,7 @@ body {
 .topnav .buttons {
     display: table;
     margin: auto;
+    margin-bottom: 10px;
 }
 
 .topnav a {
