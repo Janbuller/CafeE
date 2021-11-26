@@ -25,16 +25,12 @@
         <div class="bestil-her-div">
             <a class="big-button" href='https://www.youtube.com/'> Bestil her </a>
         </div>
-            <div class="menu-div">
-                <a class="menu-button" href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'> Menu </a>
-                <p> her kan jimmi putte sin menu. </p>
-            </div>
-        <div id="footer">
-            <p id="footer-tlf">Telefon:7629 2378 eller 2492 8090</p>
-            <a id="footertlf" href="mailto:info@kokkenudafhuset.dk">Mail: info@kokkenudafhuset.dk </a>
-            <a id="footersmiley" href="http://www.findsmiley.dk/1112436"><img src="img/smiley.webp"></a>
+        <div class="menu-div">
+            <a class="menu-button" href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'> Menu </a>
+            <p> her kan jimmi putte sin menu. </p>
         </div>
     </div>
+    <?php include 'footer.php'; ?>
 </body>
 
 </html>
