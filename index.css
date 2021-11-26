@@ -110,3 +110,15 @@ body {
     margin-bottom: 10px;
 }
 
+.menu-button{
+    filter: brightness(1.2);
+    margin-bottom: 10px;
+}
+
+.menu-div{
+    background-color: white;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
