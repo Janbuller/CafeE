@@ -19,7 +19,7 @@
                 </div>
             </div>
         </div>
-        <img src="img/funny monkey.png" id="frontimg">
+        <img src="img/cafe-bg.png" id="frontimg">
     </div>
         <div class="bestil-her-div"> 
             <a class="big-button" href='https://www.youtube.com/'> Bestil her </a>
