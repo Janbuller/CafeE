@@ -115,8 +115,18 @@ body {
 }
 
 .menu-button{
-    filter: brightness(1.2);
+    background-color: #AE9981;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
     margin-bottom: 10px;
+
+}
+.menu-button:hover{
+    filter: brightness(1.2);
+    
 }
 
 .menu-div{
