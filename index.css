@@ -12,7 +12,7 @@ body {
   min-height: 100vh;
 }
 
-.top-image-heade{
+.top-image-header{
     object-fit: cover;
     height: 600px;
     width: 50%;
