@@ -26,7 +26,7 @@
         </div>
             <div id="footer">This is a footer this stays at the bottom of the page :D
             <h1 id="footer-tlf">Kontakt i åbningstiden tlf:7629 2378 eller tlf:2492 8090</h1>
-            <a id="footersmiley" href="http://www.findsmiley.dk/1112436">fødevarerstyrelsen<img src="img/1Smiley.png"></a>
+            <a id="footersmiley" href="http://www.findsmiley.dk/1112436">fødevarerstyrelsen<img src="img/Smiley.png"></a>
             <a id="footertlf" href="mailto:info@kokkenudafhuset.dk">Mail: info@kokkenudafhuset.dk </a>
         </div>
     </body>
