@@ -7,6 +7,11 @@ body {
     min-height: 100vh;
 }
 
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
 #Bestil_knap {
     width: 50%;
     align-content: center;
