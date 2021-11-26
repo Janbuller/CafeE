@@ -82,6 +82,7 @@ body {
     background:#C1C1C1;
     font-family: "Roboto", sans-serif;
 }
+
 #footertlf{
     align-content: right;
     font-weight: 300;
@@ -90,9 +91,15 @@ body {
     
     color: #FFFFFF;
 }
+
 #footersmiley{
-    float: left;
+    float: right;
 }
+
+#footersmiley img{
+    height: 5em;
+}
+
 .big-button {
     background-color: #AE9981;
     color: white;
