@@ -38,7 +38,7 @@ body {
 
 #header h1 {
     color: #ffffff;
-    margin-top: 10;
+    margin-top: 5;
     margin-bottom: 10;
     font-size: 50;
     font-family: "Roboto", sans-serif;
@@ -49,12 +49,12 @@ body {
 
 .topnav {
     overflow: hidden;
+    margin-bottom: 10px;
 }
 
 .topnav .buttons {
     display: table;
     margin: auto;
-    margin-bottom: 10px;
 }
 
 .topnav a {
