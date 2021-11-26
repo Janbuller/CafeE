@@ -70,7 +70,8 @@ body {
     left: 0;
     bottom: 0;
     width:100%;
-    background:#6cf;
+    height:60px;   /* Height of the footer */
+    background:#C1C1C1;
     font-family: "Roboto", sans-serif;
 }
 #footertlf{
