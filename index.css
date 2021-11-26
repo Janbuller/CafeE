@@ -12,10 +12,16 @@ body {
   min-height: 100vh;
 }
 
+.top-image-heade{
+    object-fit: cover;
+    height: 600px;
+    width: 50%;
+}
+
 .frontimg{
     object-fit: cover;
     height: 500px;
-    width: 100%;
+    width: 50%;
 }
 
 #Bestil_knap {
