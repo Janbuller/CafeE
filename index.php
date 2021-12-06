@@ -29,7 +29,11 @@
             <a class="menu-button" href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'> Menu </a>
             <p> her kan jimmi putte sin menu. </p>
         </div>
+    <div class="om-os-og-mad-div"> 
+      <a> Om os og vores mad </a>
     </div>
+    </div>
+    
     <?php include 'footer.php'; ?>
 </body>
 

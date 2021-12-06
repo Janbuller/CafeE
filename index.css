@@ -148,6 +148,18 @@ body {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.om-os-og-mad-div{
+    background-color: AE9981;
+    text-align: center;
+    color: white;
+    height: 100vm;
+    width: 50vm;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
 #info{
     color: #AC9C89;
     align-content: left;
