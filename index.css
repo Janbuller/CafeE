@@ -18,20 +18,14 @@ body {
     width: 50%;
 }
 
-.frontimg{
-    object-fit: cover;
-    height: 500px;
-    width: 50%;
-}
-
-#Bestil_knap {
+.Bestil_knap {
     width: 50%;
     align-content: center;
 }
 
 #frontimg{
-    width: 100%;
-    height: 250Px;
+    width: 100vw;
+    height: 66.66vw;
     align-content: center;
     z-index:-1;
 }
