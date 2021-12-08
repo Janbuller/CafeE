@@ -1,3 +1,7 @@
+<?php
+$name="Café E";
+$img_name = "img/cafe-bg.webp";
+?>
 <html>
 
 <head>
@@ -7,30 +11,16 @@
 
 <body>
     <div id="page-container">
-        <div id="top-image-header">
-            <div id="header">
-                <h1>Café E</h1>
-                <div class="topnav">
-                    <div class="buttons">
-                        <a class="right-line" href="#menu">Menu</a>
-                        <a class="right-line" href="#bestil">Bestil her</a>
-                        <a class="right-line" href="#aabningstider">Åbningstider</a>
-                        <a class="right-line" href="#om">Om os</a>
-                        <a href="#kontakt">Kontakt os</a>
-                    </div>
-                </div>
-            </div>
-            <img src="img/cafe-bg.webp" id="frontimg">
-        </div>
+        <?php include 'header.php';?>
         <div class="bestil-her-div">
             <a class="big-button" href='https://www.youtube.com/'> Bestil her </a>
         </div>
         <div class="menu-div">
             <a class="menu-button" href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'> Menu </a>
-            <p> her kan jimmi putte sin menu. </p>
+            <p> her kan jimmi putte sin menu.</p>
         </div>
-    <div class="om-os-og-mad-div"> 
-      <a> Om os og vores mad </a>
+    <div class="ideen-bag-div"> 
+      <a> Ideen bag Café E </a>
     </div>
     </div>
     

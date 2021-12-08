@@ -81,12 +81,14 @@ body {
 }
 
 #footer {
-    position:absolute;
+    position:relative;
     left: 0;
     bottom: 0;
     width:100%;
     background:#C1C1C1;
     font-family: "Roboto", sans-serif;
+    margin-top: -200px;
+    height: 200px;
 }
 
 #footertlf{
@@ -149,15 +151,14 @@ body {
     margin-bottom: 10px;
 }
 
-.om-os-og-mad-div{
-    background-color: AE9981;
-    text-align: center;
-    color: white;
-    height: 100vm;
-    width: 50vm;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-size: 20px;
+.ideen-bag-div{
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgba(108, 120, 83, 0.8);
 }
 
 #info{
