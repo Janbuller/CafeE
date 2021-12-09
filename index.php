@@ -24,7 +24,6 @@ $img_name = "img/cafe-bg.webp";
             <img src="img/bestil-bg.webp" id="frontimg">
         </div>
     </div>
-
     <?php include 'footer.php'; ?>
 </body>
 
