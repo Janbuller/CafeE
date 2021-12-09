@@ -81,13 +81,12 @@ body {
 }
 
 #footer {
-    position:relative;
-    left: 0;
-    bottom: 0;
+    /*position:relative;*/
     width:100%;
     background:#6C7853;
+    background:#ff00ff;
     font-family: "Roboto", sans-serif;
-    margin-top: -50px;
+    margin-top: auto;
     height: 100px;
 }
 
