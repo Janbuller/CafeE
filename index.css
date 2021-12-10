@@ -8,7 +8,7 @@ body {
 }
 
 #page-container {
-  position: relative;
+  /*position: relative;*/
   min-height: 100vh;
 }
 
@@ -81,13 +81,11 @@ body {
 }
 
 #footer {
-    /*position:relative;*/
+    position:relative;
     width:100%;
     background:#6C7853;
-    background:#ff00ff;
     font-family: "Roboto", sans-serif;
     margin-top: auto;
-    height: 100px;
 }
 
 #footertlf{
@@ -100,7 +98,10 @@ body {
 }
 
 #footersmiley{
-    float: right;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+    //float: right;
 }
 
 #footersmiley img{
@@ -154,9 +155,7 @@ body {
   text-align: center;
   color: white;
   font-weight: 300;
- font-size: 30px;
-  position: absolute;
-  left: 0px;
+  font-size: 30px;
   width: 100%;
   margin: 0;
   padding-top: 10px;
