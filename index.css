@@ -86,22 +86,31 @@ body {
     background:#6C7853;
     font-family: "Roboto", sans-serif;
     margin-top: auto;
+
+    box-sizing: border-box;
+    padding: 15px;
+    margin-bottom: 0;
 }
 
-#footertlf{
-    align-content: right;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 23px;
-    
+#footer * {
     color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 300;
+    text-decoration: none;
+    margin-bottom: 5px;
+    margin-top: 0;
 }
 
 #footersmiley{
+  margin: 0;
+
   position: absolute;
-  right: 10px;
-  top: 10px;
-    //float: right;
+  right: 0px;
+  bottom: 0px;
+}
+
+#footersmiley * {
+  margin: 0;
 }
 
 #footersmiley img{
