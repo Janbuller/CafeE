@@ -22,17 +22,20 @@ echo $message;
     <div id="page-container">
         <?php include 'header.php';?>
         <h1 id="bst-txt">Bestil Bord her</h1>
-        <div id="bst-txt2"></div>
-        <form action="" method="post">
-        <label class="bst-txt2" for="navn">Navn:</label>
-        <input name="navn" type="text">
-        <label class="bst-txt2" for="tlfnmr">Telefon nummer:</label>
-        <input name="tlfnmr" type="tel">
-        <label class="bst-txt2" for="antalpsr">Antal personer:</label>
-        <input name="tlfnmr" type="number" min="1" max="10">
-        <input name="dato" type="date">
-        <input name="submit" type="submit">
+          <div class="formfitting">
+            <form action="" method="post">
+            <label class="bst-txt2" for="navn">Navn:</label>
+            <input class="input" name="navn" type="text">
+            <label class="bst-txt2" for="tlfnmr">Telefon nummer:</label>
+            <input class="input" name="tlfnmr" type="tel">
+            <label class="bst-txt2" for="antalpsr">Antal personer:</label>
+            <input class="input" name="tlfnmr" type="number" min="1" max="10">
+            <label class="bst-txt2" for="dato">Dato:</label>
+            <input id="date-input" class="input" name="dato" type="date">
+            <input name="submit" class="big-button" type="submit" value="Bestil">
+          </div>
         </form>
+      </div>
     </div>
     <?php include 'footer.php'; ?>
 </body>

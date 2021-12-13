@@ -1,10 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     padding: 0;
     margin: 0;
     min-height: 100vh;
+
+    /*cursor: none;
+    background: linear-gradient(125deg, rgba(0,255,29,1) 0%, rgba(249,255,0,1) 15%, rgba(54,243,162,1) 33%, rgba(240,87,87,1) 44%, rgba(135,235,117,1) 54%, rgba(112,106,230,1) 64%, rgba(243,53,235,1) 83%, rgba(0,212,255,1) 100%); 
+    */
 }
 
 #page-container {
@@ -124,7 +132,7 @@ body {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    margin:auto
+    margin:auto;
 }
 
 .big-button:hover {
@@ -161,15 +169,37 @@ body {
 }
 
 .ideen-bag-div{
+  position: relative;
   text-align: center;
   color: white;
   font-weight: 300;
   font-size: 30px;
   width: 100%;
   margin: 0;
-  padding-top: 10px;
-  padding-bottom: 40px;
+}
+
+.ideen-bag-div h2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   background-color: rgba(108, 120, 83, 0.8);
+  padding: 40px;
+  margin: 0;
+}
+
+.ideen-bag-div img {
+  padding: 0;
+}
+
+.ideen-bag-text-div {
+  background-color: D0C1B0;
+  vertical-align: bottom;
+  text-align: left;
+  color: white;
+  bottom: 0;
+  padding: 5;
+  font-size: 20;
 }
 
 #info{
@@ -183,10 +213,38 @@ body {
   font-weight: 300;
   font-size: 20px;
 }
-#bst-txt2{
+.bst-txt2{
     color: #6C7853;
   text-align: left;
   font-family: "Roboto", sans-serif;
   font-weight: 300;
-  font-size: 15px;
+  display: block;
+  font-size: 20px;
+}
+.input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  display: block;
+  font-size: 20px;
+  color: #6C7853;
+  text-align: left;
+  font-family: "Roboto", sans-serif;
+   background: rgb(0,255,29);
+background: linear-gradient(125deg, rgba(0,255,29,1) 0%, rgba(249,255,0,1) 15%, rgba(54,243,162,1) 33%, rgba(240,87,87,1) 44%, rgba(135,235,117,1) 54%, rgba(112,106,230,1) 64%, rgba(243,53,235,1) 83%, rgba(0,212,255,1) 100%); 
+}
+.formfitting {
+  display: block;
+  text-align:center;
+  margin-bottom: 10px;
+}
+.formfitting form{
+  display: inline-block;
+  margin: auto;
+}
+
+#date-input {
+  text-align: center;
+  margin-bottom: 20px;
 }

@@ -3,10 +3,10 @@
     <h1><?php echo $page_name; ?></h1>
     <div class="topnav">
       <div class="buttons">
-        <a class="right-line" href="#menu">Menu</a>
-        <a class="right-line" href="#bestil">Bestil her</a>
-        <a class="right-line" href="#aabningstider">Åbningstider</a>
-        <a class="right-line" href="#om">Om os</a>
+        <a class="right-line" href="index.php#menu">Menu</a>
+        <a class="right-line" href="bestil.php">Bestil her</a>
+        <a class="right-line" href="index.php#aabningstider">Åbningstider</a>
+        <a class="right-line" href="index.php#om">Om os</a>
         <a href="#kontakt">Kontakt os</a>
       </div>
     </div>
