@@ -1,0 +1,49 @@
+#menu {
+  background: #222222;
+  padding: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  text-align: left;
+}
+
+#menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+#menu ul li div *{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+
+  color: #FFFFFF;
+}
+#menu ul li div {
+  margin-top: 20px;
+  margin-bottom: 6px;
+}
+
+#menu ul li {
+  border-bottom: 1px dashed #A4BE6D;
+}
+
+#menu ul li div h3 {
+  display: inline;
+  margin: 0;
+  margin-left: 10px;
+}
+#menu ul li div p {
+  display: inlilne;
+  float: right;
+  font-weight: 300;
+  margin: 0;
+  margin-right: 10px;
+}
+
+#menu ul .category{
+  margin-top: 50px;
+  text-align: center;
+}
