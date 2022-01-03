@@ -4,11 +4,27 @@ $img_name="img/bestil-bg.webp";
 ?>
 
 <?php
+include "config.php";
+
 $message = "";
 if(isset($_POST['submit'])){ //check if form was submitted
   $name = $_POST['navn']; //get input text
+  $tlfnr = $_POST['tlfnr'];
+  $amount = $_POST['antalpsr'];
   $date = $_POST['dato']; //get input text
-  $message = "Success! You entered: ".$name.$date;
+  $time = $_POST['time']; //get input text
+  $message = "Success! You entered: ".$name.$tlfnr.$amount.$date.$time;
+  
+  //Connection
+  $conn = new mysqli_connect($servername, $username, $password, $dbname);
+
+  // Check connection
+  if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+  }
+
+  $sql = "INSERT INTO `LMR_reservationer` (`ID`, `Navn`, `tlf`, `Tid`, `Dato`, `AntalPersoner`) VALUES (NULL, '{$name}', '{$tlfnr}', '{$time}', '{$date}', '{$amount}'";
+  $result = $conn->query($sql);
 }    
 echo $message;
 ?>
@@ -27,10 +43,10 @@ echo $message;
             <form action="" method="post">
             <label class="bst-txt2" for="navn">Navn:</label>
             <input class="input" name="navn" type="text" required>
-            <label class="bst-txt2" for="tlfnmr">Telefon nummer:</label>
-            <input class="input" name="tlfnmr" type="tel" required>
+            <label class="bst-txt2" for="tlfnr">Telefon nummer:</label>
+            <input class="input" name="tlfnr" type="tel" required>
             <label class="bst-txt2" for="antalpsr">Antal personer:</label>
-            <input class="input" name="tlfnmr" type="number" min="1" max="10" required>
+            <input class="input" name="antalpsr" type="number" min="1" max="10" required>
             <label class="bst-txt2" for="dato">Dato:</label>
             <input id="date-input" class="input" name="dato" type="date" required>
             <label class= "bst-txt2" for= "time">Tid</label>
