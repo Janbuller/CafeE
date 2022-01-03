@@ -16,7 +16,7 @@ if(isset($_POST['submit'])){ //check if form was submitted
   $message = "Success! You entered: ".$name.$tlfnr.$amount.$date.$time;
   
   //Connection
-  $conn = new mysqli_connect($servername, $username, $password, $dbname);
+  $conn = mysqli_connect($servername, $username, $password, $dbname);
 
   // Check connection
   if (!$conn) {
