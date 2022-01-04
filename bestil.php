@@ -13,7 +13,6 @@ if (isset($_POST['submit'])) { //check if form was submitted
   $amount = $_POST['antalpsr'];
   $date = $_POST['dato']; //get input text
   $time = $_POST['time']; //get input text
-  $message = "Success! You entered: " . $name . $tlfnr . $amount . $date . $time;
 
   //Connection
   $conn = new mysqli($servername, $username, $password, $dbname);
@@ -29,7 +28,8 @@ if (isset($_POST['submit'])) { //check if form was submitted
   if ($result) {
     echo ("success");
   } else {
-    echo ("Fail");
+    echo ("Fail\n");
+      echo("sql: $sql \n");
     echo ($conn->error);
   }
 }
