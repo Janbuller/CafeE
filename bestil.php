@@ -23,15 +23,16 @@ if (isset($_POST['submit'])) { //check if form was submitted
     die('Connect Error (' . mysqli_connect_errno() . ') ' . mysqli_connect_error());
   }
 
-  $sql = "INSERT INTO `LMR_reservationer` (`ID`, `Navn`, `tlf`, `Tid`, `Dato`, `AntalPersoner`) VALUES (NULL, '{$name}', '{$tlfnr}', '{$time}', '{$date}', '{$amount}'";
+  $sql = "INSERT INTO `LMR_reservationer` (`ID`, `Navn`, `tlf`, `Tid`, `Dato`, `AntalPersoner`) VALUES (NULL, '$name', '$tlfnr', '$time', '$date', '$amount'";
+$sql = "INSERT INTO many_kunder (Fornavn, Efternavn) values ('$fornavn','$efternavn')";
   $result = $conn->query($sql);
 
-    if($result) {
-        echo("success");
-    } else {
-        echo("Fail");
-        echo($conn->error);
-    }
+  if ($result) {
+    echo ("success");
+  } else {
+    echo ("Fail");
+    echo ($conn->error);
+  }
 }
 echo $message;
 ?>
