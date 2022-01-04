@@ -24,14 +24,6 @@ if (isset($_POST['submit'])) { //check if form was submitted
 
   $sql = "INSERT INTO `LMR_reservationer` (`ID`, `Navn`, `tlf`, `Tid`, `Dato`, `AntalPersoner`) VALUES (NULL, '$name', '$tlfnr', '$time', '$date', '$amount')";
   $result = $conn->query($sql);
-
-  if ($result) {
-    echo ("success");
-  } else {
-    echo ("Fail\n");
-    echo ("sql: $sql \n");
-    echo ($conn->error);
-  }
 }
 echo $message;
 ?>
