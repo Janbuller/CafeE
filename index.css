@@ -65,6 +65,7 @@ a {
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: rgba(108, 120, 83, 0.8);
+    backdrop-filter: blur(10px);
 }
 
 #header h1 {
