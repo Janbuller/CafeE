@@ -73,8 +73,6 @@ $img_name = "img/cafe-bg.webp";
           </ul>
         </div>
         <div class="menu-div">
-            <a class="big-button" href='https://www.youtube.com/watch?v=dQw4w9WgXcQ'> Menu </a>
-            <p> her kan jimmi putte sin menu.</p>
             <?php include 'menu.php'; ?>
         </div>
         <div class="ideen-bag-div" id="om" style="z.index:2">

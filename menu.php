@@ -9,13 +9,17 @@
     <li>
       <div>
         <h3>Romkugle</h3>
-        <p>1.000.000 kr.</p>
+        <p>20 kr.</p>
       </div>
     </li>
     <li>
       <div>
-        <h3>Sandwich</h3>
-        <p>5$</p>
+        <h3>Chokolade Kage</h3>
+        <p>50 kr</p>
+      </div>
+            <div>
+        <h3>KajKage</h3>
+        <p>20 kr</p>
       </div>
     </li>
     <li class="category">
@@ -25,38 +29,38 @@
     </li>
     <li>
       <div>
-        <h3>Ultra mega destruction cannon</h3>
-        <p>5 kr</p>
+        <h3>Sandwich</h3>
+        <p>50 kr</p>
       </div>
     </li>
     <li>
       <div>
-        <h3>Hvor meget vi tjener på at lave denne her hjemmeside</h3>
-        <p>0 kr.</p>
+        <h3>Brød</h3>
+        <p>15 kr.</p>
       </div>
     </li>
     <li>
       <div>
-        <h3>Fredag:</h3>
-        <p>10:00 - 16:00</p>
+        <h3>Burger</h3>
+        <p>30 kr</p>
       </div>
     </li>
     <li>
       <div>
-        <h3>Lørdag:</h3>
-        <p>10:00 - 16:00</p>
+        <h3>French Toast</h3>
+        <p>15 kr</p>
       </div>
     </li>
     <li>
       <div>
-        <h3>Søndag:</h3>
-        <p>10:00 - 16:00</p>
+        <h3>Pizza</h3>
+        <p>60 kr</p>
       </div>
     </li>
-    <li id="åbning-helligdage">
+    <li>
       <div>
-        <h3>Helligdage:</h3>
-        <p>10:00 - 16:00</p>
+        <h3>Sushi</h3>
+        <p>30 kr</p>
       </div>
     </li>
   </ul>
