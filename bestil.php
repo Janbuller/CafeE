@@ -6,7 +6,6 @@ $img_name = "img/bestil-bg.webp";
 <?php
 include "config.php";
 
-$message = "";
 if (isset($_POST['submit'])) { //check if form was submitted
   $name = $_POST['navn']; //get input text
   $tlfnr = $_POST['tlfnr'];
@@ -25,7 +24,6 @@ if (isset($_POST['submit'])) { //check if form was submitted
   $sql = "INSERT INTO `LMR_reservationer` (`ID`, `Navn`, `tlf`, `Tid`, `Dato`, `AntalPersoner`) VALUES (NULL, '$name', '$tlfnr', '$time', '$date', '$amount')";
   $result = $conn->query($sql);
 }
-echo $message;
 ?>
 
 <html>
